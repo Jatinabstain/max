@@ -42,8 +42,8 @@ footer{
 .sincerity{
     color: #ff9800 !important;
 }
-i{
-    font-size: 12px;
+svg{
+    width: 20px;
 }
 .icon a{
     font-size: 22px !important;
@@ -55,6 +55,7 @@ i{
 .about_list svg {
     color: #ff9800 !important;
     margin-right: 5px;
+    width: 20px;
 }
 .about_list{
     line-height: 2.5;
@@ -126,6 +127,7 @@ iframe{
     line-height: 2;
 }
 .services svg{
+    width: 20px;
     font-size: 15px;
     color: #ff9800 !important;
 }
