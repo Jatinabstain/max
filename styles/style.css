@@ -148,6 +148,7 @@ footer h3{
     transition: all 0.5s ease-in-out;
 }
 .icon svg{
+    width: 20px;
     transition: all  0.5s ease 0s;
 }
 .icon:hover svg{
