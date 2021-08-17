@@ -12,7 +12,7 @@ export const Footer = () => {
                             <a><Image src={logo} alt="logo" className="img-fluid flogo" width={200} /></a>
                         </Link>
                         <ul className="list-unstyled">
-                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since.</li>
                         </ul>
                     </div>
                     <div className="col-md-5">
