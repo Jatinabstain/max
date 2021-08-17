@@ -43,12 +43,12 @@ export const Main = () => {
                             <div className="col-md-6">
                                 <div className="about_content">
                                     <h4>Welcome to <span>Max Movers</span></h4>
-                                    <p> Now were up in the big leagues getting' our turn at bat. And when the odds are against him and their dangers work to do.</p>
+                                    <p> Now were up in the big leagues getting our turn at bat. And when the odds are against him and their dangers work to do.</p>
                                     <p className="text-dark">Some Our <span className="sincerity"> Sincerity,</span></p>
                                     <ul className="list-unstyled about_list">
                                         <li><i className="fas fa-check"></i> Our Works Are Doing Very Fast.</li>
                                         <li><i className="fas fa-check"></i> Why do we always come here I guess well never know.</li>
-                                        <li><i className="fas fa-check"></i> There ain't nothin' wrong with that The ship.</li>
+                                        <li><i className="fas fa-check"></i> There aint nothin wrong with that The ship.</li>
                                         <li><i className="fas fa-check"></i> These Happy Days are yours and mine Happy Days.</li>
                                     </ul>
                                     <Link href="/about">
