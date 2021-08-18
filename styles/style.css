@@ -12,6 +12,7 @@ body{
 }
 .nav_link{
     padding: .28rem 1rem !important;
+    border-bottom: 3px solid #fff;
 }
 .wrap{
     min-height: 92vh;
@@ -445,8 +446,67 @@ footer h3{
 .team_lists{
     padding: 60px 0 0;
 }
+.button_link a{
+    background-color: #0084b4;
+    color: #fff !important;
+    border-radius: 25px;
+    border: 3px solid #0084b4;
+    padding: .28rem 1.5rem !important;
+    width: 100px;
+    text-align: center;
+}
+.button_active:hover a{
+    border: 3px solid #0084b4;
+}
+.button_active a{
+    background-color: #ff9800;
+    color: #fff !important;
+    border-radius: 25px;
+    border: 3px solid #ff9800;
+    padding: .28rem 1.5rem !important;
+    width: 100px;
+    text-align: center;
+}
+.login{
+    padding: 60px 0;
+    position: relative;
+}
+.login_card{
+    padding: 1rem 2rem 2rem;
+    border: 0;
+    border-radius: 22px;
+    box-shadow: 0 0 20px -12px;
+}
+.login_card h3{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 43px;
+    font-weight: 600;
+}
+.login_group{
+    margin-bottom: 2.5rem;
+}
+.login_card input{
+    height: 45px;
+}
+.login_btn{
+    background-color: #0084b4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login_btn:hover{
+    color: #fff;
+    background-color: #ff9800;
+}
 @media only screen and (max-width: 768px) {
     .header{
         padding: .5rem 1rem !important;
+    }
+    .button_active{
+        margin-bottom: 5rem;
+    }
+    .button_link{
+        margin-bottom: 5rem;
     }
 }

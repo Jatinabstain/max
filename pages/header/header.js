@@ -39,13 +39,25 @@ export const Header = () => {
                             </Link>
                         </li>
                     </ul>
+                    <ul className="navbar-nav">
+                        <li className={router.pathname == "/login" ? "nav-item nav_item button_active" : "nav-item nav_item button_link"}>
+                            <Link href="/login">
+                                <a className="nav-link nav_link">Login</a>
+                            </Link>
+                        </li>
+                        <li className={router.pathname == "/signup" ? "nav-item nav_item button_active" : "nav-item nav_item button_link"}>
+                            <Link href="/signup">
+                                <a className="nav-link nav_link">Signup</a>
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
- )
+    )
 }
-const handleClick = (e) =>  {
+const handleClick = (e) => {
     var element = document.getElementById("navbarSupportedContent");
-   element.classList.toggle("show");
+    element.classList.toggle("show");
 }
 export default Header
