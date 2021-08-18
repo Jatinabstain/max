@@ -509,4 +509,7 @@ footer h3{
     .button_link{
         margin-bottom: 5rem;
     }
+    .slick-arrow {
+        display: none !important;
+    }
 }
