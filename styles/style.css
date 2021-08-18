@@ -345,6 +345,102 @@ footer h3{
     width: 30px !important;
     height: 30px !important;
 }
+.about_team{
+    padding: 60px 0;
+}
+.team_heading h3{
+    color: #232323;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 1.28px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.team_heading span{
+    color: #0084b4;
+    font-weight: 600;
+}
+.team_box{
+    position: relative;
+    transition: all 1s ease 0s;
+}
+.team_body{
+    background-color: rgba(0, 0, 0, 0.702);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    transition: all 1s ease 0s;
+}
+.team_body ul{
+    padding-left: 0;
+    margin-bottom: 15px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    transition: all 1s ease 0s;
+}
+.team_body ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.team_body li a{
+    border: 1px solid #f4b734;
+    color: #fff;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    transition: all 1s ease 0s;
+}
+.team_body h5{
+    color: #f4b734;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.team_body p{
+    color: #fff;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 0.52px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.team_body li a:hover {
+    background-color: #f4b734;
+    color: #000;
+}
+.team_box:hover .team_body {
+    padding-top: 65px;
+}
+.team_box:hover .team_body{
+    padding-top: 65px;
+}
+.team_box:hover .team_body ul {
+    bottom: 80px;
+    opacity: 1;
+}
+.team_lists{
+    padding: 60px 0 0;
+}
 @media only screen and (max-width: 768px) {
     .header{
         padding: .5rem 1rem !important;
