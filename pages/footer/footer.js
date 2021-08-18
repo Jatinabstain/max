@@ -50,18 +50,18 @@ export const Footer = () => {
                                 </div>
                                 <ul className="list-inline social">
                                     <li className="list-inline-item icon">
-                                        <Link href="">
-                                            <a><i className=" fab fa-facebook-f"></i></a>
+                                        <Link href="https://www.facebook.com/">
+                                            <a target="_blank"><i className=" fab fa-facebook-f"></i></a>
                                         </Link>
                                     </li>
                                     <li className="list-inline-item icon">
-                                        <Link href="">
-                                            <a><i className="fab fa-twitter"></i></a>
+                                        <Link href="https://twitter.com/">
+                                            <a target="_blank"><i className="fab fa-twitter"></i></a>
                                         </Link>
                                     </li>
                                     <li className="list-inline-item icon">
-                                        <Link href="">
-                                            <a><i className="fab fa-instagram"></i></a>
+                                        <Link href="https://www.instagram.com/">
+                                            <a target="_blank"><i className="fab fa-instagram"></i></a>
                                         </Link>
                                     </li>
                                 </ul>

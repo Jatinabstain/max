@@ -11,7 +11,7 @@ body{
     box-shadow: 0 0 10px -2px #ccc;
 }
 .nav_link{
-    padding: 1rem !important;
+    padding: .28rem 1rem !important;
 }
 .wrap{
     min-height: 92vh;
@@ -168,6 +168,182 @@ footer h3{
 }
 .fa-chevron-right{
     width: 10px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    background-color: #0685b3;
+    border-bottom: 3px solid #ff9800;
+}
+.nav_item{
+    padding: 0 .2rem;
+}
+.nav_link{
+    transition: all 0.5s ease 0s;
+}
+.nav_link:hover{
+    color: rgb(255 255 255) !important;
+    background-color: #0685b3;
+    border-bottom: 3px solid #ff9800;
+}
+.offer{
+    background-image: url('../public/assets/images/callout-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    text-align: center;
+}
+.offer::before {
+    background-color: rgba(0, 132, 180, 0.9);
+    content: "";
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+.offer_content{
+    position: relative;
+}
+.heading h3{
+    position: relative;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1.28px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.heading span{
+    color: #f4b734;
+}
+.offer_content p{
+    color: #fff;
+    font-style: italic;
+    line-height: 24px;
+    letter-spacing: 0.56px;
+    margin-bottom: 40px;
+    padding: 0 100px;
+}
+.offer_btn{
+    background-color: #f4b734;
+    color: #232323;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+}
+.offer_btn:hover{
+    background-color: #232323;
+    color: #f4b734;
+}
+.our_services{
+    padding: 60px 0;
+}
+.services_heading h3{
+    color: #232323;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 1.28px;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.services_heading span{
+    color: #0084b4;
+    font-weight: 600;
+}
+.services_heading p{
+    color: #888;
+    line-height: 24px;
+    letter-spacing: 0.52px;
+    margin-bottom: 20px;
+}
+.service{
+    padding: 1rem;
+}
+.service span{
+    color: #232323;
+    font-size: 17px;
+    letter-spacing: 0.429px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.service p{
+    color: #888;
+    line-height: 22px;
+    letter-spacing: 0.325px;
+    margin-bottom: 20px;
+}
+.testimonials{
+    padding: 60px 0;
+}
+.test_heading h3{
+    color: #232323;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: 1.28px;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.test_heading span{
+    color: #0084b4;
+    font-weight: 600;
+}
+.testi_card{
+    text-align: center;
+    padding: 2rem .6rem 0rem;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px -12px;
+}
+.profile_user{
+    border-radius: 50%;
+    margin-bottom: 1rem !important;
+}
+.testi_card h5{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+.testi_card span{
+    color: #ff9800;
+    font-style: italic;
+    font-weight: 600;
+}
+.testi_card svg{
+    color: #ff9800;
+    width: 25px !important;
+    height: 25px !important;
+    margin: 1rem auto;
+}
+.testi_card p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.rating{
+    max-width: 32% !important;
+    min-width: 32% !important;
+    min-height: 32% !important;
+    max-height: 32% !important;
+}
+.slick-prev:before, .slick-next:before{
+    color: #0685b3 !important;
+    font-size: 30px !important;
+}
+.slick-list{
+    padding: 1rem 0 !important;
+}
+.slick-prev, .slick-next{
+    width: 30px !important;
+    height: 30px !important;
 }
 @media only screen and (max-width: 768px) {
     .header{

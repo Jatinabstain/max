@@ -2,8 +2,10 @@ import Image from 'next/image'
 import logo from '../../public/assets/images/logo.png'
 import Link from 'next/link'
 import 'jquery'
+import { useRouter } from 'next/router'
 
 export const Header = () => {
+    const router = useRouter()
     return (
         <nav className="navbar header navbar-expand-lg sticky-top navbar-light">
             <div className="container">
@@ -16,22 +18,22 @@ export const Header = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item nav_item active">
+                        <li className={router.pathname == "/" ? "nav-item nav_item active" : "nav-item nav_item"}>
                             <Link href="/">
                                 <a className="nav-link nav_link">Home</a>
                             </Link>
                         </li>
-                        <li className="nav-item nav_item">
+                        <li className={router.pathname == "/about" ? "nav-item nav_item active" : "nav-item nav_item"}>
                             <Link href="/about">
                                 <a className="nav-link nav_link">About</a>
                             </Link>
                         </li>
-                        <li className="nav-item nav_item">
+                        <li className={router.pathname == "/services" ? "nav-item nav_item active" : "nav-item nav_item"}>
                             <Link href="/services">
                                 <a className="nav-link nav_link">Services</a>
                             </Link>
                         </li>
-                        <li className="nav-item nav_item">
+                        <li className={router.pathname == "/contact" ? "nav-item nav_item active" : "nav-item nav_item"}>
                             <Link href="/contact">
                                 <a className="nav-link nav_link">Contact Us</a>
                             </Link>
