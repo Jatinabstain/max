@@ -6,8 +6,19 @@ import team_user from '../public/assets/images/team-1.jpg'
 import team_user1 from '../public/assets/images/team-2.jpg'
 import team_user2 from '../public/assets/images/team-4.jpg'
 import team_user3 from '../public/assets/images/team-3.jpg'
+import profile_user from '../public/assets/images/testi-2.jpg'
+import profile_user2 from '../public/assets/images/testi-1.jpg'
+import star from '../public/assets/images/star.png'
+import Slider from "react-slick";
 
 export const About = () => {
+    const settings = {
+        infinite: true,
+        dots: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2
+    };
     return (
         <div className="layout">
             <Head>
@@ -137,6 +148,84 @@ export const About = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className="testimonials">
+                    <div className="container">
+                        <Slider {...settings}>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user} className="img-fluid profile_user" alt="user" />
+                                        <h5>Will Smith</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user2} className="img-fluid profile_user" alt="user" />
+                                        <h5>John wyatt</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user} className="img-fluid profile_user" alt="user" />
+                                        <h5>Will Smith</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user2} className="img-fluid profile_user" alt="user" />
+                                        <h5>John wyatt</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user} className="img-fluid profile_user" alt="user" />
+                                        <h5>Will Smith</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="col-md-12">
+                                    <div className="card testi_card">
+                                        <Image src={profile_user2} className="img-fluid profile_user" alt="user" />
+                                        <h5>John wyatt</h5>
+                                        <span>Customer</span>
+                                        <i className="fas fa-quote-right"></i>
+                                        <p>It&apos;s a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine  Could you be mine.</p>
+                                        <Image src={star} className="img-fluid rating" alt="star" />
+                                    </div>
+                                </div>
+                            </div>
+                        </Slider>
                     </div>
                 </section>
                 <div className="container d-none">

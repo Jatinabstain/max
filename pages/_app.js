@@ -7,8 +7,8 @@ import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import Header from '../pages/header/header'
 import Footer from '../pages/footer/footer'
-//import 'jquery'
-//import 'bootstrap'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function MyApp({ Component, pageProps }) {
   return (

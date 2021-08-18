@@ -9,8 +9,6 @@ import star from '../public/assets/images/star.png'
 import Link from 'next/link'
 import Carousel from 'react-bootstrap/Carousel';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 
 export  const Main = () =>  {
     const settings = {

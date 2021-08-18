@@ -378,6 +378,10 @@ footer h3{
     text-align: center;
     transition: all 1s ease 0s;
 }
+.team_body svg{
+    width: 16px !important;
+    height: 18px !important;
+}
 .team_body ul{
     padding-left: 0;
     margin-bottom: 15px;
@@ -399,7 +403,7 @@ footer h3{
     display: inline-block;
     height: 28px;
     width: 28px;
-    line-height: 28px;
+    line-height: 23px;
     text-align: center;
     transition: all 1s ease 0s;
 }
